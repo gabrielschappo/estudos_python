@@ -4,7 +4,7 @@ matriculas = np.zeros((100))
 
 for x in range(len(list(matriculas))):
     num = int(input(f'Informe a matrícula do aluno {x}: '))
-    if num in matriculas:
+    while num in matriculas:
         print('Matricula ja presente na lista!')
-    else:
-        matriculas[x] = num
+        num = int(input(f'Informe a matrícula do aluno {x}: '))
+    matriculas[x] = num

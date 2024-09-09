@@ -17,7 +17,8 @@ lista_impar = np.zeros((impar))
 p = 0
 i = 0
 
-
+#possibilidade:
+#lista_par = sorted(filter(lambda x: x % 2 == 0, lista))
 for x in range(len(list(lista))):
     if lista[x] % 2 == 0:
         lista_par[p] = lista[x]

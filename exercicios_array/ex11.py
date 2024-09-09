@@ -12,5 +12,3 @@ for x in range(len(list(vetor))):
         soma += vetor[x]
 
 print(f'Esse vetor possui {neg} números negativos\nA soma dos números positivos é igual a: {soma}')
-print(vetor[-1])
-print(vetor[-2])
