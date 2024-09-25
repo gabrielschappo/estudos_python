@@ -1,6 +1,6 @@
-import array as arr
+import numpy as np
 
-vetor = arr.array('f',[0] * 10)
+vetor = np.zeros((10))
 neg = 0
 soma = 0
 

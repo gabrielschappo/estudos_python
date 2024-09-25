@@ -1,6 +1,6 @@
-import array as arr
+import numpy as np
 
-notas = arr.array('f',[0] * 15)
+notas = np.zeros((15))
 soma = 0
 
 for x in range(len(list(notas))):
